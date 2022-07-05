@@ -1,0 +1,324 @@
+@media (max-width: 1366.98px) {
+    section{
+        .recent_test{
+            .recent_test_body{
+                .recent_test_card{
+                    ul {
+                        padding: 0px;
+                        margin: 0px;
+                        list-style-type: none;
+                        li{
+                            display: inline-block;
+                             margin-right: 7px;
+                            font-weight: 400;
+                            font-size: 13px;
+                            color: #3E3E3E;
+                        }
+                    }
+                }
+            }
+        }
+    }    
+       
+}
+
+
+
+
+
+@media (max-width: 991.9px) {
+    section{
+        .question_bank{
+            .question_bank_tab{
+            ul{
+            li {
+                margin: 0px 0px 0px;
+                button.nav-link {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    }
+        .dashboard_heading {
+            display: flex;
+            .question_heading {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 767.9px) {
+    section{
+        .question_bank{
+            .question_bank_tab{
+                div.tab-content{
+                    .Problems_tab{
+                        .general{
+                            .general_form{
+                                .general_field{
+                                    textarea {
+                                        height: auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .Problems_tab.Candidates{
+                        .condidate_table{
+                            .pagination_box{
+                                .page {
+                                    height: 15px;
+                                    width: 15px;
+                                }
+                            }
+                        }
+                        .question_bank{
+                            display: block;
+                            .search {
+                                margin-bottom: 15px;
+                                .wrap {
+                                    width: 100%;
+                                    margin: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .question_bank_tab {
+            .nav {
+                display: block;
+            }
+        }
+        .dashboard_heading {
+            display: flex;
+            .question_heading {
+                margin-bottom: 15px;
+            }
+        }
+        .recent_test{
+            .recent_test_body{
+                .filter_checkbox{
+                    p{
+                        padding-inline-start: 0px;
+                    }
+                    ul {
+                        padding-inline-start: 0px;
+                    }
+                }
+                .condidate_box{
+                    .time {
+                        width: 115px;
+                        text-align: right;
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 555.9px) {
+
+    section{
+        .question_bank{
+            .dashboard_heading{
+                h3{
+                    button.open.close {
+                       
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            .question_bank_tab{
+                div.tab-content{
+                    .Problems_tab{
+                        .general{
+                            .general_form {
+                                .general_field{
+                                    input {
+                                      font-size: 14px;
+                                    }
+                                    label {
+                                        font-weight: 400;
+                                        font-size: 13px;
+                                        line-height: 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section{
+     .recent_test{
+        .recent_test_body.ques_bank{
+            .recent_test_card{
+                .ques_bank_box{
+                    .question_right{
+                        width: 30%;
+                        text-align: right;
+                        ul{
+                            li{
+                                margin:0px 2px;
+                                a{
+                                    img{
+                                        width: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+       .recent_test_body.Activity_Feed{
+         .feed_box {
+            .time {
+            p{
+              width: 75px;
+              font-size: 12px;
+              line-height: 16px;
+            }
+        }
+        .condidate_box{
+            .condidate_name {
+                p{
+                    line-height: 22px;
+                    font-size: 13px;
+                }
+            }
+            .condidate_icon{
+                p{
+                    width: 55px;
+                    height: 55px;
+                 
+                }
+            }
+        }
+    }
+    }
+    .recent_test_body{
+        .recent_test_card{
+            .top{
+                h3 {
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+  }   
+        .dashboard_heading{
+            @media screen and(max-width:992px){
+                display: flex;
+            }
+
+            h3 {
+                margin: 0px;
+                font-weight: 500;
+                font-size: 22px;
+                color: $black;
+            }
+            .create_test{
+                button.test {
+                    font-size: 13px;
+                    padding: 6px 25px;
+                }
+            }
+        }
+    } 
+
+}
+
+
+@media (max-width: 400.9px) {
+
+    section{
+        .dashboard_heading{
+            .create_test{
+                button.test.mr-2 {
+                  
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+
+    section{
+        .search{
+            .wrap {
+                width: 100%;
+                margin: 0px auto 30px;
+            }
+        }
+        .dashboard_heading {
+            display: block;
+            h3 {
+                margin-bottom: 18px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 375.9px) {
+    section{
+        .recent_test{
+            .recent_test_body.Activity_Feed{
+                .feed_box{
+                  .time{
+                    p {
+                        margin-left: 5px;
+                    }
+                  }
+                }
+            }
+            .recent_test_body{
+                .condidate_box{
+                    .condidate_name {
+                        h4{
+                            font-size: 15px;
+                        }
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                    .condidate_icon{
+                        p{
+                            width: 55px;
+                            height: 55px;
+                        }
+                    }
+                }
+                .recent_test_card{
+                    .top{
+                        display: block;
+                        h3 {
+                          margin-bottom: 15px;
+                          margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
